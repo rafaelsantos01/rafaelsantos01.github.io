@@ -46,6 +46,9 @@ body{
     max-height:3000px;
     width: auto ;
     height: auto ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
    
 }
 
