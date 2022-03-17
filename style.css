@@ -30,7 +30,6 @@ nav {
 }
 
 body{
-    
     background: url(img/programador.jpg); 
     background-repeat: repeat;
     font-family:sans-serif;
@@ -72,15 +71,6 @@ body{
 
 .sobre-min {
     background-color: rgb(246, 246, 246);
-    
-    /*
-    border-radius: 30px;
-    text-align: center;
-    width: 66vw;
-    height: 100%;
-    z-index: 99;
-   */
-    
     border-radius: 30px;
     text-align: center;
     width: 80vw;
@@ -93,6 +83,7 @@ body{
 
 }
 
+/* container geral do projeto */
 .container{
     width: 100vw;
     height: 100vh; 
@@ -105,9 +96,8 @@ body{
     z-index: 99;
 }
 
+ /* container sobre mim */
 .container-sobremim {
-    /* width: 100vw;
-    height: 100vh; */
     width: auto;
     height: auto;
     display:grid;
@@ -115,19 +105,30 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-   
 }
+
+ /* responsavel pela foto do sobre mim */
 .foto-rafael{
     width: auto;
     height: auto;
-    
     display:grid;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 99;
-    
+}
+
+/*responsavel pela textarea do dontato */
+textarea{
+    resize: none;
+    min-width: 270px;
+    width: 270px;
+    height: 160px;
+    line-height: 24px;
+    min-height: 22px;
+    overflow-y: hidden; 
+    padding-top: 1.1em;
 }
 
 
