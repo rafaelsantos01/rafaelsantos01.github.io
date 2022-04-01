@@ -29,7 +29,7 @@ function confirmAction(){
 
     if(confirmAction){
         alert("Você será redirecionado");
-        window.location.href = "foguete.html";
+        window.location.href = "./foguete.html";
     } else {
       alert("Acão cancelada!");
     }
