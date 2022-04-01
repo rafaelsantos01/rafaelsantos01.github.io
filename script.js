@@ -24,8 +24,17 @@ function teste(){
     alert("testando JS")
 }
 
-function easterEgg(){
-    alert("Achouu")
+function confirmAction(){
+    let confirmAction = confirm("Game ainda em desenvolvimento, deseja continuar? ");
+
+    if(confirmAction){
+        alert("Você será redirecionado");
+        window.location.href = "./esteregg.html";
+    } else {
+      alert("Acão cancelada!");
+    }
+     
+    
 }
 
 //funcao esterEgg

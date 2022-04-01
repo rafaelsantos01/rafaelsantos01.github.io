@@ -65,7 +65,7 @@ body{
 /* container geral do projeto */
 .container{
   
-    width: 100vw;
+    
     height: 100vh; 
     display:grid;
     flex-direction: row;

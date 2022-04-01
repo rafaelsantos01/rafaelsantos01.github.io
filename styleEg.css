@@ -17,7 +17,7 @@
     position: relative;
     width: 400px;
     height: 400px;
-    background: rgb(13, 174, 2);
+    /* background: rgb(13, 174, 2); */
     border-radius: 50%;
   }
   
@@ -25,7 +25,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: rgb(13, 174, 2);
+    /* background: rgb(13, 174, 2); */
     border-radius: 50%;
     display: inline-block;
     width: 100%;
