@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header id="header">
+        <a id="logo" href="index.html"><img src="./img/logo.png" alt=""></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburger"></span>
+            </button>
+          <ul id="menu" role="menu">
+            <li><a href="index.html" class="menu"> Home </a></li>
+            <li><a href="contato.html" class="menu"> Contato </a> </li>
+            <li><a href="projetos.html" class="menu"> Projetos </a> </li>
+            <li><a href="sobre.html" class="menu"> Sobre mim </a> </li>
+          </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+           
+        <section class="envolvendo">
+            <form action="https://formspree.io/f/mlezloor" method="POST">
+                <h1>Contato</h1>
+                <br>
+                <section class="redes sociais">
+                    <section class="redes-sociais">
+                        <a class="rede" href="http://github.com/rafaelsantos01"><img class="rede" src="img/git.png" target="_blank"></a>
+                        <a class="rede" href="http://linkedin.com/in/rafael-santos-308493143"><img class="rede" src="img/link.png"target="_blank"></a> 
+                        <a class="rede" href="https://wa.me/55047996581330"> <img class="rede" src="img/wpp.png" alt=""></a> 
+                        <a class="rede" href="https://www.instagram.com/fk.rafasantos/"><img class="rede" src="img/insta.png" alt=""></a> 
+
+                        <br>
+                    </section>
+                    <br>
+                    <br>
+                    </section>
+
+                    <input type="text" name="name" placeholder="Nome" required="required" > 
+                    <input type="email" name="email" placeholder="Email" required="required"><br>
+                    <input type="tel"  name="tel" placeholder="(xx)xxxxxxxxx" required="required">
+                    <input type="url" name="Linkedin" placeholder="LikedIn URL"><br> <br>
+                    Urgência<input type="range" name="urgencia" min=0 max=10><br> <br>
+                    <input type="checkbox" name="dia-da-semana" value=2 >Segunda-Feira
+                    <input type="checkbox" name="dia-da-semana" value=3 >Terça-Feira
+                    <input type="checkbox" name="dia-da-semana" value=4 >Quarta-Feira 
+                    <input type="checkbox" name="dia-da-semana" value=5 >Quinta-Feira
+                    <input type="checkbox" name="dia-da-semana" value=6 >Sexta-Feira <br><br>
+                    <input type="radio" name="horario" value="Manha">Manhã
+                    <input type="radio" name="horario" value="Tarde">Tarde
+                    <input type="radio" name="horario" value="Noite">Noite <br><br>
+                    Mensagem
+                    <div class="mensagem-area">
+                        
+                        <textarea name="" id=""></textarea>
+
+                        </textarea> <br>
+                        
+                    </div>
+                    <button type="submit"><b>Enviar</b></button>
+                    <button type="reset"><b>Limpar</b></button>
+                    <button type="button"><b>Outra ação</b></button>
+            </form>
+            <nav>
+                <br>
+                &copy; 2022 - Rafael Pereira Dos Santos
+            </nav>
+            
+        </section>
+    
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
