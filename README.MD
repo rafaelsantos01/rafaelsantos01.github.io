@@ -15,7 +15,7 @@
   
 </div>
 
-<img src ="https://github.com/rafaelsantos01/portifolioweb/issues/1#issue-1191569722" />
+<img src ="https://user-images.githubusercontent.com/83642989/161524813-eb407c67-12e7-448f-b2f8-0751cf5109a2.png" />
 
 <div style="display: inline_block">
   
@@ -40,7 +40,7 @@
   <tr>
     <td align="center">
       <a href="https://github.com/rafaelsantos01">
-        <img src="https://github.com/rafaelsantos01/portifolioweb/issues/2#issue-1191570888 " width="100px;" alt=""/><br>
+        <img src="https://user-images.githubusercontent.com/83642989/161524961-d476949f-9e5f-4932-86c0-beff8d89e934.jpg" width="100px;" alt=""/><br>
         <sub>
           <b>Rafael P Santos</b>
         </sub>
