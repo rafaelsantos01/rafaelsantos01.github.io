@@ -40,7 +40,7 @@
   <tr>
     <td align="center">
       <a href="https://github.com/rafaelsantos01">
-        <img src=" " width="100px;" alt=""/><br>
+        <img src="https://github.com/rafaelsantos01/portifolioweb/issues/2#issue-1191570888 " width="100px;" alt=""/><br>
         <sub>
           <b>Rafael P Santos</b>
         </sub>
