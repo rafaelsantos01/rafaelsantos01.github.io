@@ -225,3 +225,41 @@ a:hover {
     top: -7px;
   }
 }
+
+#list-projects #project[data-v-4a018334]{
+  background-color: #fcfcfc;
+  color: #171717;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 0 hsla(0,0%,98.8%,.39);
+  
+}
+
+
+
+
+
+.container-projetos{
+  height: 100vh; 
+  
+   display:grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+
+}
+
+.titulo-projeto{
+ 
+  background: rgb(119 51 161);  
+  border-radius: 30px;
+  color: aliceblue;
+
+
+}
+
+.projeto{
+  justify-content:flex-start;
+  z-index: 9999;
+}
